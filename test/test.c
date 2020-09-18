@@ -15,7 +15,7 @@ void testArmstrong(void)
 {
 	TEST_ASSERT_EQUAL_MESSAGE(1, armstrong(153), "Standard test case[153]");
 	TEST_ASSERT_EQUAL_MESSAGE(0, armstrong(154), "Standard test case[154]");
-	TEST_ASSERT_EQUAL_MESSAGE(0, armstrong(0), "Border test case[0]");
+	TEST_ASSERT_EQUAL_MESSAGE(1, armstrong(0), "Border test case[0]");
 	TEST_ASSERT_EQUAL_MESSAGE(0, armstrong(-153), "Negative test case[-153]");
 }
 
