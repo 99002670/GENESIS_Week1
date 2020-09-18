@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-void armstrong(int originalNumber)
+int armstrong(int originalNumber)
 {
 	int duplicateNumber = originalNumber;
 	int sum = 0;
