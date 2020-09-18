@@ -11,7 +11,7 @@ int armstrong(int originalNumber)
 		sum += digit * digit * digit;
 		originalNumber /= 10;
 	}
-	if(duplicateNumber = sum)
+	if(duplicateNumber == sum)
 	{
 		armstrongFlag = 1;
 	}
