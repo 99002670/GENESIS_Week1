@@ -7,7 +7,7 @@ int prime(int number)
 	{
 		if(number % iterator == 0)
 		{
-			primeFlag = 0;
+			primeFlag = 1;
 			break;
 		}
 	}
