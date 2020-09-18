@@ -17,72 +17,68 @@ int main(void)
 		printf("5. Magic\n");
 		printf("6. Exit\n");
 		printf("Enter your choice: ");
-		scanf("%d",&choice);
+		scanf("%d", &choice);
+		int number;
 		switch(choice)
 		{
 			case 1:
 				printf("Enter a number: ");
-				int number;
-				scanf("%d",&number);
-				printf("Factorial of %d is %d",&number,&factorial(number));
+				scanf("%d", &number);
+				printf("Factorial of %d is %d", number, factorial(number));
 				break;
 			case 2:
 				printf("Enter a number: ");
-				int number;
-				scanf("%d",&number);
+				scanf("%d", &number);
 				if(perfect(number))
 				{
-					printf("%d is a perfect number",&number);
+					printf("%d is a perfect number", number);
 				}
 				else
 				{
-					printf("%d is not a perfect number",&number);
+					printf("%d is not a perfect number", number);
 				}
 				break;
 			case 3:
 				printf("Enter a number: ");
-				int number;
-				scanf("%d",&number);
+				scanf("%d", &number);
 				if(armstrong(number))
 				{
-					printf("%d is an armstrong number",&number);
+					printf("%d is an armstrong number", number);
 				}
 				else
 				{
-					printf("%d is not an armstrong number",&number);
+					printf("%d is not an armstrong number", number);
 				}
 				break;
 			case 4:
 				printf("Enter a number: ");
-				int number;
-				scanf("%d",&number);
+				scanf("%d", &number);
 				if(prime(number))
 				{
-					printf("%d is a prime number",&number);
+					printf("%d is a prime number", number);
 				}
 				else
 				{
-					printf("%d is not a prime number",&number);
+					printf("%d is not a prime number", number);
 				}
 				break;
 			case 5:
 				printf("Enter a number: ");
-				int number;
-				scanf("%d",&number);
+				scanf("%d", &number);
 				if(magic(number))
 				{
-					printf("%d is a magic number",&number);
+					printf("%d is a magic number", number);
 				}
 				else
 				{
-					printf("%d is not a magic number",&number);
+					printf("%d is not a magic number", number);
 				}
 				break;
 			default:
 				printf("***Invalid Input***");
 				break;
 		}
-	}while(ch != 6);
+	}while(choice != 6);
 
 	return 0;
 }
