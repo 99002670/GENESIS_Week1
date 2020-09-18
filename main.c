@@ -10,7 +10,7 @@ int main(void)
 	int choice;
 	do
 	{
-		printf("1. Factorial\n");
+		printf("\n\n1. Factorial\n");
 		printf("2. Perfect\n");
 		printf("3. Armstrong\n");
 		printf("4. Prime\n");
@@ -24,18 +24,18 @@ int main(void)
 			case 1:
 				printf("Enter a number: ");
 				scanf("%d", &number);
-				printf("Factorial of %d is %d", number, factorial(number));
+				printf("Factorial of %d is %d\n", number, factorial(number));
 				break;
 			case 2:
 				printf("Enter a number: ");
 				scanf("%d", &number);
 				if(perfect(number))
 				{
-					printf("%d is a perfect number", number);
+					printf("%d is a perfect number\n", number);
 				}
 				else
 				{
-					printf("%d is not a perfect number", number);
+					printf("%d is not a perfect number\n", number);
 				}
 				break;
 			case 3:
@@ -43,11 +43,11 @@ int main(void)
 				scanf("%d", &number);
 				if(armstrong(number))
 				{
-					printf("%d is an armstrong number", number);
+					printf("%d is an armstrong number\n", number);
 				}
 				else
 				{
-					printf("%d is not an armstrong number", number);
+					printf("%d is not an armstrong number\n", number);
 				}
 				break;
 			case 4:
@@ -55,11 +55,11 @@ int main(void)
 				scanf("%d", &number);
 				if(prime(number))
 				{
-					printf("%d is a prime number", number);
+					printf("%d is a prime number\n", number);
 				}
 				else
 				{
-					printf("%d is not a prime number", number);
+					printf("%d is not a prime number\n", number);
 				}
 				break;
 			case 5:
@@ -67,15 +67,15 @@ int main(void)
 				scanf("%d", &number);
 				if(magic(number))
 				{
-					printf("%d is a magic number", number);
+					printf("%d is a magic number\n", number);
 				}
 				else
 				{
-					printf("%d is not a magic number", number);
+					printf("%d is not a magic number\n", number);
 				}
 				break;
 			default:
-				printf("***Invalid Input***");
+				printf("***Invalid Input***\n");
 				break;
 		}
 	}while(choice != 6);
