@@ -4,6 +4,9 @@
 # include "perfect.h"
 # include "armstrong.h"
 # include "prime.h"
+# include "palindrome.h"
+# include "neon.h"
+
 
 int main(void)
 {
