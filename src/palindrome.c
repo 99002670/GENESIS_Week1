@@ -3,7 +3,7 @@
 int palindrome(int originalNumber)
 {
 	int duplicateNumber = originalNumber;
-	int reverseNumber;
+	int reverseNumber = 0;
 	int palindromeFlag = 0;
 	while(duplicateNumber > 0)
 	{
