@@ -15,7 +15,8 @@ int main(void)
 		printf("3. Armstrong\n");
 		printf("4. Prime\n");
 		printf("5. Magic\n");
-		printf("6. Exit\n");
+		printf("6. Palindrome \n");
+		printf("7. Exit\n");
 		printf("Enter your choice: ");
 		scanf("%d", &choice);
 		int number;
@@ -75,13 +76,25 @@ int main(void)
 				}
 				break;
 			case 6:
+				printf("Enter a number: ");
+				scanf("%d", &number);
+				if(palindrome(number))
+				{
+					printf("%d is a palindrome number\n", number);
+				}
+				else
+				{
+					printf("%d is a not palindrome number\n", number);
+				}
+				break;
+			case 7:
 				printf("\nThank you\n");
 				break;
 			default:
 				printf("***Invalid Input***\n");
 				break;
 		}
-	}while(choice != 6);
+	}while(choice != 7);
 
 	return 0;
 }
