@@ -3,6 +3,7 @@ SRC = src/perfect.c\
       src/prime.c\
       src/armstrong.c\
       src/magic.c\
+      src/palindrome.c\
       main.c
 
 INC = -Iinc
