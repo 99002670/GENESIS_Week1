@@ -45,7 +45,7 @@ void testPerfect()
 {
 	TEST_ASSERT_EQUAL_MESSAGE(1, perfect(6), "Standard test case[6]");
 	TEST_ASSERT_EQUAL_MESSAGE(0, perfect(7), "Standard test case[7]");
-	TEST_ASSERT_EQUAL_MESSAGE(0, perfect(0), "Border test case[0]");
+	TEST_ASSERT_EQUAL_MESSAGE(1, perfect(0), "Border test case[0]");
 	TEST_ASSERT_EQUAL_MESSAGE(0, perfect(-6), "Negative test case[-6]");
 }
 
