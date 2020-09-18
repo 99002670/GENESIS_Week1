@@ -4,7 +4,7 @@ int perfect(int number)
 {
 	int perfectFlag = 0;
 	int sum = 0;
-	for(int iterator = 1; iterator <= originalNumber / 2; iterator += 1)
+	for(int iterator = 1; iterator <= number / 2; iterator += 1)
 	{
 		if(number % iterator == 0)
 		{
