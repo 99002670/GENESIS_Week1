@@ -85,7 +85,7 @@ int main(void)
 				}
 				else
 				{
-					printf("%d is a not palindrome number\n", number);
+					printf("%d is not a palindrome number\n", number);
 				}
 				break;
 			case 7:
@@ -97,7 +97,7 @@ int main(void)
 				}
 				else
 				{
-					printf("%d is a not neon number\n", number);
+					printf("%d is not a neon number\n", number);
 				}
 				break;
 			case 8:
