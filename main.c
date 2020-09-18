@@ -74,6 +74,9 @@ int main(void)
 					printf("%d is not a magic number\n", number);
 				}
 				break;
+			case 6:
+				printf("\nThank you\n");
+				break;
 			default:
 				printf("***Invalid Input***\n");
 				break;
