@@ -37,7 +37,7 @@ void testNeon()
 {
 	TEST_ASSERT_EQUAL_MESSAGE(1, neon(9), "Standard test case[9]");
 	TEST_ASSERT_EQUAL_MESSAGE(0, neon(8), "Standard test case[8]");
-	TEST_ASSERT_EQUAL_MESSAGE(0, neon(0), "Border test case[0]");
+	TEST_ASSERT_EQUAL_MESSAGE(1, neon(0), "Border test case[0]");
 	TEST_ASSERT_EQUAL_MESSAGE(0, neon(-9), "Negative test case[-9]");
 }
 
