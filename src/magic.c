@@ -11,8 +11,8 @@ int magic(int number)
 			number = sum;
 			sum = 0;
 		}
-		int digit = n % 10;
-		sum += n % 10;
+		int digit = number % 10;
+		sum += number % 10;
 	}
 	if(sum == 1)
 	{
