@@ -15,5 +15,6 @@ int neon(int number)
 	{
 		neonFlag = 1;
 	}
+	return neonFlag;
 }
 
