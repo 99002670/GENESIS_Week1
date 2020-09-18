@@ -53,7 +53,7 @@ int main(void)
 			case 4:
 				printf("Enter a number: ");
 				scanf("%d", &number);
-				if(prime(number))
+				if(!prime(number))
 				{
 					printf("%d is a prime number\n", number);
 				}
